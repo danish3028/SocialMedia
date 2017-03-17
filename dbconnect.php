@@ -1,6 +1,6 @@
-$connectstr_dbhost = '127.0.0.1';
+$connectstr_dbhost = '';
 $connectstr_dbname = 'ucl_database';
-$connectstr_dbusername = 'azure';
+$connectstr_dbusername = '';
 $connectstr_dbpassword = '';
  
 foreach ($_SERVER as $key => $value) {
