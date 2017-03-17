@@ -1,7 +1,7 @@
 
 <?php
 $connectstr_dbhost = '';
-$connectstr_dbname = '';
+$connectstr_dbname = 'ucl_database';
 $connectstr_dbusername = '';
 $connectstr_dbpassword = '';
  
