@@ -1,10 +1,10 @@
 <?php
 
-$host = "br-cdbr-azure-south-b.cloudapp.net";
+$host = "localhost";
 
-$username = "b94a5738ca9e3b";
+$username = "root";
 
-$password = "02ba1498";
+$password = "";
 
 $db = "ucl_database";
 
