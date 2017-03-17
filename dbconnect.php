@@ -1,8 +1,8 @@
 <?php
-	$host = 'localhost';
+	$host = 'br-cdbr-azure-south-b.cloudapp.net';
 	$db = 'ucl_database';
-	$user = 'root';
-	$pass = '';
+	$user = 'b94a5738ca9e3b';
+	$pass = '02ba1498';
 	$charset = 'utf8';
 	
 	$dsn = "mysql:host=$host;dbname=$db;charset=$charset";
