@@ -1,7 +1,7 @@
 <?php
 	function verifySession($pdo){
 		session_start();
-		define("LOGINREDIR", "http://localhost:8888/index.php");
+		define("LOGINREDIR", "/index.php");
 		if(isset($_SESSION['key']) && isset($_SESSION['id'])){ 
 			$stmt = $pdo->prepare('SELECT session_key, 								
 									CASE 
