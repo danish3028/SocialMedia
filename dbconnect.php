@@ -1,7 +1,7 @@
 <?php
 
 $connectstr_dbhost = '';
-$connectstr_dbname = 'ucl_database';
+$connectstr_dbname = '';
 $connectstr_dbusername = '';
 $connectstr_dbpassword = '';
 
@@ -16,7 +16,7 @@ foreach ($_SERVER as $key => $value) {
     $connectstr_dbpassword = preg_replace("/^.*Password=(.+?)$/", "\\1", $value);
 }
 
-$pdo = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword,$connectstr_dbname);
+$pdo = mysqli_connect($connectstr_dbhost, $connectstr_dbusername, $connectstr_dbpassword, $connectstr_dbname);
 
 if (!$pdo) {
     echo "Error: Unable to connect to MySQL." . PHP_EOL;
