@@ -6,7 +6,7 @@ $username = "b94a5738ca9e3b";
 
 $password = "02ba1498";
 
-$db ="ucl_database";
+$db = "ucl_database";
 
 
 
