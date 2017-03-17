@@ -1,3 +1,5 @@
+<?php
+
 $connectstr_dbhost = '';
 $connectstr_dbname = 'ucl_database';
 $connectstr_dbusername = '';
@@ -18,3 +20,5 @@ define('DB_NAME', $connectstr_dbname);
 define('DB_USER', $connectstr_dbusername);
 define('DB_PASSWORD', $connectstr_dbpassword);
 define('DB_HOST', $connectstr_dbhost);
+
+?>
