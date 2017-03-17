@@ -12,7 +12,7 @@ $db ="ucl_database";
 
 
 
-$conn = mysqli_connect($host, $username, $password);
+$conn = mysqli_connect($host, $db, $username, $password);
 
 
 
